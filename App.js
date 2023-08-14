@@ -5,6 +5,7 @@ import ColorScreen from "./screens/ColorScreen"
 export default function App() {
   return (
     <View style={styles.container}>
+   
       <StatusBar style="auto" />
       <ColorScreen/>
     </View>
@@ -16,6 +17,11 @@ const styles = StyleSheet.create({
    
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    borderWidth:10,
+    width:100,
+    flex:1,
+    padding:20
+    
+
   },
 });
